@@ -1,0 +1,6 @@
+uci set wireless.sta.ssid="<SSID>"  
+uci set wireless.sta.key="<KEY>"  
+uci set wireless.sta.encryption="psk"  
+uci set wireless.sta.disabled="0"  
+uci commit  
+wifi  
